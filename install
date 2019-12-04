@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 docker pull php:7.3-cli
-docker pull composer/composer
-docker run --rm -v $(pwd):/app composer/composer install
+docker pull composer
+docker run --rm -v $(pwd):/app composer install
